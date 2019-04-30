@@ -12,18 +12,18 @@
 
     <header>
         <form name=exf1>
-            <input type=text name=m size=2> 분 <input type=text name=s size=2>초
+            <input type=text name=m size=2> 분
         </form>
     </header>
 
 
     <section>
         <input type="button" name="gg" onclick=setAlam() value="Setting">
-
     </section>
 
     <script>
 
+        setInterval(() => { alert('b') }, document.exf1.m.value * 1000);
 
 
     </script>
